@@ -13,8 +13,7 @@ const ProductItem = (props) => {
       cartSlice.actions.addItem({
         id,
         title,
-        price,
-        description,
+        price
       })
     );
   };
